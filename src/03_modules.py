@@ -33,4 +33,7 @@ print(f'Current process ID: {os.getpid()}')
 print(f'Current working directory: {os.getcwd()}')
 
 # Print out your machine's login name
-print()
+
+# print(os.system("$(whoami)"))
+user = os.getlogin()
+print(f'{user}')
