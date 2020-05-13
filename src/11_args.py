@@ -59,6 +59,9 @@ def f4(**args):
     for key, value in args.items():
         print("key: %s, value: %s" % (key, value))
 
+# *args takes in variable number of arguments
+# **kwargs is used to pass a keyworded, variable-length argument list
+
 
 # Should print
 # key: a, value: 12
