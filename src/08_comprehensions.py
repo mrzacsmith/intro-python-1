@@ -12,6 +12,7 @@ for more info regarding list comprehensions.
 
 y = [i for i in range(1, 6)]
 
+
 # for num in rante(1,5):
 #     y.append(num)
 
